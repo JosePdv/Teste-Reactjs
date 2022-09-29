@@ -1,0 +1,144 @@
+.posicao {
+    position: absolute;
+    width: 1440.08px;
+    height: 1024px;
+    left: 2.95px;
+    top: 0px;
+    background: linear-gradient(180deg, #356EB1 34.9%, rgba(3, 43, 255, 0) 100%);
+    mix-blend-mode: normal;
+    transform: rotate(0.17deg);
+}
+
+.input{
+
+    position: absolute;
+    width: 383px;
+    height: 53px;
+    left: 34.9px;
+    top: 432px;
+
+    background: #EBEAE9;
+    border-radius: 31.5px;
+}
+.input2{
+    position: absolute;
+    width: 383px;
+    height: 53px;
+    left: 34.9px;
+    top: 514px;
+
+    background: #EBEAE9;
+    border-radius: 31.5px;
+}
+.label{
+    position: absolute;
+    width: 78px;
+    height: 35px;
+    left: 61.9px;
+    top: 397px;
+
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #241C1C;
+
+}
+.label2{
+    position: absolute;
+    width: 63px;
+    height: 22px;
+    left: 61.9px;
+    top: 492px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+}
+.botao{
+    position: absolute;
+    width: 75px;
+    height: 23px;
+    left: 195.9px;
+    top: 591.56px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #F5F4F2;
+
+}
+
+
+.back {
+    background: linear-gradient(180deg, #356EB1 34.9%, rgba(3, 43, 255, 0) 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.imagem-logo {
+    background-color: #fff;
+    margin-top: 32px;
+    /*width: 55%;*/
+    height: 151px;
+}
+
+.card-ajuste {
+    width: 460px !important;
+    height: 10% !important;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.3);
+    border-radius: 25px !important;
+}
+
+.card-body-ajuste {
+    margin-top: 65px;
+}
+
+.input-login {
+    width: 319px !important;
+    height: 63px !important;
+    border-radius: 31.5px !important;
+    background: #F5F4F2;
+}
+
+.btn-entrar {
+    width: 319px !important;
+    height: 63px !important;
+    background: #241C1C !important;
+    color: #FFF !important;
+    font-weight: bold;
+    border-radius: 31.5px !important;
+}
+.btn-entrar:hover {
+    width: 319px !important;
+    height: 63px !important;
+    background: darkgreen !important;
+    color: #FFF !important;
+    font-weight: bold;
+    border-radius: 31.5px !important;
+}
+
+.label-password {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #241C1C;
+}
